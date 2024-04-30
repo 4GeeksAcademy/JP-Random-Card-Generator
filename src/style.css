@@ -1,1 +1,53 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+/* ♦ ♥ ♠ ♣ */
+body {
+  background-color: green;
+}
+
+.card {
+  width: 22vh;
+  height: 38vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.3vh;
+  border: 1px solid black;
+}
+
+.card-background {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  display: flex;
+}
+
+.topSuit {
+  font-size: 3rem;
+  height: 25%;
+  margin-left: 5px;
+}
+
+.cardNumber {
+  font-size: 5rem;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.bottomSuit {
+  font-size: 3rem;
+  height: 25%;
+  margin-right: 5px;
+  display: flex;
+  align-items: end;
+  transform: scaleY(-1);
+}
+
+.♥ {
+  color: red;
+}
+
+.♦ {
+  color: red;
+}
